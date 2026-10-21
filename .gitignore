@@ -1,0 +1,22 @@
+# Compilacion
+target/
+out/
+*.class
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Logs y respaldos
+*.log
+data/datos.xml.bak
+
+# Carpetas de trabajo local (no forman parte del proyecto)
+temp-extract/
+tools/
+
+# Ruido de Windows / OneDrive
+Thumbs.db
+desktop.ini
+*.tmp
+*~

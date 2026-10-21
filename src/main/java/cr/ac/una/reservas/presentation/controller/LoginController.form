@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="cr.ac.una.reservas.presentation.controller.LoginController">
+  <grid id="09ba7" binding="contentPane" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="15" left="15" bottom="15" right="15"/>
+    <constraints>
+      <xy x="20" y="20" width="474" height="373"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="d404f" binding="loginPanel" layout-manager="GridLayoutManager" row-count="4" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="300" height="220"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none">
+          <title-color color="-3025959"/>
+        </border>
+        <children>
+          <component id="ce98e" class="javax.swing.JButton" binding="btnIngresar" custom-create="true">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="109" height="34"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Ingresar"/>
+            </properties>
+          </component>
+          <component id="8eb5c" class="javax.swing.JLabel" binding="lbLogo" custom-create="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="55" height="55"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="73cb3" class="javax.swing.JTextField" binding="txtId">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="4" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="109" height="34"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="22d9c" class="javax.swing.JLabel" binding="lblId">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="50" height="27"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="ID"/>
+            </properties>
+          </component>
+          <component id="0449b" class="javax.swing.JLabel" binding="lblClave">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="50" height="17"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Clave:"/>
+            </properties>
+          </component>
+          <component id="35863" class="javax.swing.JPasswordField" binding="txtClave">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="109" height="34"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="e7b8" class="javax.swing.JButton" binding="btnCancelar" custom-create="true">
+            <constraints>
+              <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="109" height="34"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Cancelar"/>
+            </properties>
+          </component>
+          <component id="8a6ad" class="javax.swing.JButton" binding="btnCambiarClave" custom-create="true">
+            <constraints>
+              <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="109" height="34"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Cambiar"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
